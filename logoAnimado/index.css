@@ -1,0 +1,39 @@
+body{
+  background: rgb(90, 200, 243);
+}
+.wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.logoAsesorateTitle{
+  font-family: arial;
+  margin-top: 200px;
+  margin-left: 450px;
+  font-size: 80px;
+  color: #fff;
+  font-weight: 600;
+}
+.logoAsesorate img{
+  margin-top: 150px;
+  margin-left: 100px;
+  margin-right: -800px;
+  width: 250px;
+  height: 250px;
+  animation-name: logo;
+  animation-duration: 5s;
+
+}
+@keyframes logo{
+  0%{
+    opacity: 0;
+    transform: scale(.1) rotate(0deg);
+  }  
+  50%{
+    transform: rotate(360deg);
+  }
+  100%{
+    opacity: 1;
+  }
+}
